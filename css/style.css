@@ -3,13 +3,25 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
 body{
     font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 1047px;
     margin: 0 auto;
+    
 }
 a{
     text-decoration: none;
@@ -127,6 +139,8 @@ a.see-more-btn {
     display: block;
     margin-top: 25px;
     color: #E02C6D;
+    left: 45%;
+    position: relative;
 }
 /* Featured Product Area  */
 .featured-product{
@@ -159,7 +173,7 @@ a.buy-btn {
 .featured-product-img img{
     width: 80%;
 }
-/* Footer Area  */
+/* Footer Area */
 .footer-area{
     background: #0A0826;
     padding-top: 40px;
