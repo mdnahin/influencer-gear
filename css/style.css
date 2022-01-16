@@ -68,6 +68,10 @@ header{
 .slider-img img{
     width: 100%;
 }
+.slider-img:hover  img{
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+}
 .slider-content{
     width: calc(100% - 440px);
     padding-right: 75px;
